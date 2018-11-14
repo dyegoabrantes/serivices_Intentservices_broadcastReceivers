@@ -54,3 +54,7 @@ module.exports.getUserById = function(req,res) {
         res.status(404).send('Usuário não encontrado');
     }
 }
+
+module.exports.printa = function(req,res) {
+    console.log("eita");
+}

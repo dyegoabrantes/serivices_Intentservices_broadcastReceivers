@@ -7,7 +7,6 @@ let jwt = require('jsonwebtoken');
 module.exports.efetuaLogin = function(req,res){
     let pass = req.body.senha;
     let email = req.body.email;
-    console.log('chega aqui')
 
     let promise = Usuario.findOne({'email':email}).exec();
 

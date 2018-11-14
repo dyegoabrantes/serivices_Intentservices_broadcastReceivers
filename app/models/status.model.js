@@ -1,4 +1,4 @@
-export class Post{
+export class Status{
     umidSolo;
     umidAr;
     temperatura;

@@ -15,6 +15,7 @@
     "express": "^4.8.8",
     "jsonwebtoken": "^8.2.2",
     "mongoose": "^5.1.2",
+    "mosca": "^2.8.3",
     "nodemon": "^1.18.4"
   }
 }

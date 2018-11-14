@@ -4,6 +4,7 @@ let path = require('path');
 
 let usersRouter = require('../app/routes/users.routes');
 let authRouter = require('../app/routes/auth.routes');
+let moscaRouter = require('../app/routes/mosca.routes');
 
 
 module.exports = function () {
@@ -13,6 +14,7 @@ module.exports = function () {
     app.use(bodyParser.urlencoded({extended: true}))
     usersRouter(app);
     authRouter(app);
+    moscaRouter(app);
 
     return app;
 }
