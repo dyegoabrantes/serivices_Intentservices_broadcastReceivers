@@ -82,7 +82,7 @@ module.exports.getUmTp = function() {
 
 module.exports.getEstados = function(req,res) {
   console.log(state);
-  res.status(202).json({state:state});
+  res.status(202).json({estado:state});
 }
 
 module.exports.setLuz = function(req,res) {
